@@ -23,7 +23,7 @@ def send_text(message, pnum):
     s.starttls()
     s.login([email account], [app password])
 
-    s.sendmail(from_email, pnum, message) #msg.as_string()
+    s.sendmail(from_email, pnum, message)
 
     s.quit()
     s.close()
